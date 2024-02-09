@@ -1,0 +1,34 @@
+.post {
+    width: 200px;
+    border-radius: 20px;
+    height: 300px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &.testing {
+        background-color: #bbd0ff;
+    }
+
+    &.coding {
+        background-color: #e7c6ff;
+    }
+
+    &.hobbies {
+        background-color: #ffd6ff;
+    }
+
+    & button {
+        width: 50%;
+        background-color: whitesmoke;
+        border-radius: 10px;
+        outline: 1px solid transparent;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+}
+

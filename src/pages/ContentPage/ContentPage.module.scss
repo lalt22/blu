@@ -1,0 +1,45 @@
+.content_wrapper {
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    & .details {
+        height: fit-content;
+        padding: 40px;
+        button {
+            outline: 1px solid transparent;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    }   
+
+
+}
+
+.form_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    & .form {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        width: 60%;
+
+        & input, textarea {
+            border-radius: 10px;
+            outline: 1px solid transparent;
+            border: none;
+            padding: 10px;
+            resize: none;
+           
+        }
+
+        & .submit {
+            cursor: pointer;
+        }
+
+        
+    }
+}

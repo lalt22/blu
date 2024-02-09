@@ -1,0 +1,11 @@
+.posts_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 20px;
+    height: fit-content;
+    justify-content: space-around;
+    align-content: flex-start;
+    
+}

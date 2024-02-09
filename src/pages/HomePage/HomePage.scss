@@ -1,0 +1,26 @@
+.page-wrapper {
+    height: 100%;
+    & img {
+        width: 100%;
+        height: auto;
+    }
+    overflow-y: hidden;
+}
+
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.selected-posts-section {
+    margin-top: 40px;
+}
+.selected-posts {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
